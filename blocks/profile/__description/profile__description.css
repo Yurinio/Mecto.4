@@ -1,0 +1,10 @@
+.profile__description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px 0;
+}
+@media (max-width: 425px) {
+    .profile__description {
+        margin: 0 auto;
+    }
+}

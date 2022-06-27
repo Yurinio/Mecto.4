@@ -1,0 +1,21 @@
+.profile__button {
+    overflow: hidden;
+    border: none;
+    background: url(../../../images/profile__button-1.svg) center no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 150px;
+    transition: 0.3s;
+}
+.profile__button:hover {
+    opacity: 0.6;
+}
+@media (max-width: 425px) {
+.profile__button {
+    width: 282px;
+    background: url(../../../images/profile__button-2.svg) center no-repeat;
+}
+}
